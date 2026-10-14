@@ -35,3 +35,9 @@ int lowerBound(vector<int> arr, int n, int x){
     }
     return ans;
 }
+
+// Complexity Analysis
+// Time Complexity: O(log n) - The search space is halved in each iteration of
+
+// General functiions in cpp standard library
+lower_bound(arr.begin(), arr.end(), n) - Returns an iterator pointing to the first element in the range [first, last) which does not compare less than val. If all elements in the range compare less than val, the function returns last. The range shall be partitioned with respect to the expression !comp(element, val), where comp is a comparison function that returns true if the first argument is less than the second. The function uses binary search algorithm and has logarithmic complexity.
